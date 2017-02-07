@@ -3,6 +3,10 @@
     package="com.taeksukim.android.myutility">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!--GPS 센서-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- network provider-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
