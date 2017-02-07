@@ -103,9 +103,9 @@ public class FourFragment extends Fragment implements OnMapReadyCallback {
     @Override
     public void onMapReady(GoogleMap googleMap) {
         map = googleMap;
-        LatLng sydney = new LatLng(-34, 151);
-        map.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 20));
+        LatLng seoul = new LatLng(37.516066, 127.019361);
+        map.addMarker(new MarkerOptions().position(seoul).title("Sinsa in Seoul"));
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(seoul, 20));
     }
 
     LocationListener locationListener = new LocationListener() {
